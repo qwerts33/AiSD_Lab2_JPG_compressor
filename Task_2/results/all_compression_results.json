@@ -1,0 +1,252 @@
+{
+  "Lena RGB": {
+    "original_size": 473831,
+    "results": [
+      {
+        "quality": 10,
+        "compressed_size": 71101,
+        "ratio_percent": 15.005561054468789
+      },
+      {
+        "quality": 20,
+        "compressed_size": 83335,
+        "ratio_percent": 17.587494275385104
+      },
+      {
+        "quality": 30,
+        "compressed_size": 94553,
+        "ratio_percent": 19.955005054544763
+      },
+      {
+        "quality": 40,
+        "compressed_size": 105271,
+        "ratio_percent": 22.216992978509214
+      },
+      {
+        "quality": 50,
+        "compressed_size": 116650,
+        "ratio_percent": 24.61848211704173
+      },
+      {
+        "quality": 60,
+        "compressed_size": 127287,
+        "ratio_percent": 26.863375338464557
+      },
+      {
+        "quality": 70,
+        "compressed_size": 146389,
+        "ratio_percent": 30.894770498342233
+      },
+      {
+        "quality": 80,
+        "compressed_size": 182609,
+        "ratio_percent": 38.53884612868301
+      },
+      {
+        "quality": 90,
+        "compressed_size": 266620,
+        "ratio_percent": 56.26900730429204
+      }
+    ]
+  },
+  "RGB 1024x1024": {
+    "original_size": 2576667,
+    "results": [
+      {
+        "quality": 10,
+        "compressed_size": 426493,
+        "ratio_percent": 16.552119462856474
+      },
+      {
+        "quality": 20,
+        "compressed_size": 560421,
+        "ratio_percent": 21.749841946980343
+      },
+      {
+        "quality": 30,
+        "compressed_size": 650096,
+        "ratio_percent": 25.230113165573975
+      },
+      {
+        "quality": 40,
+        "compressed_size": 751590,
+        "ratio_percent": 29.16907772715683
+      },
+      {
+        "quality": 50,
+        "compressed_size": 783744,
+        "ratio_percent": 30.4169688981929
+      },
+      {
+        "quality": 60,
+        "compressed_size": 882374,
+        "ratio_percent": 34.24478211581085
+      },
+      {
+        "quality": 70,
+        "compressed_size": 1069644,
+        "ratio_percent": 41.512698381280934
+      },
+      {
+        "quality": 80,
+        "compressed_size": 1147768,
+        "ratio_percent": 44.544677290468655
+      },
+      {
+        "quality": 90,
+        "compressed_size": 1323514,
+        "ratio_percent": 51.36534911185652
+      }
+    ]
+  },
+  "Grayscale": {
+    "original_size": 379117,
+    "results": [
+      {
+        "quality": 10,
+        "compressed_size": 250094,
+        "ratio_percent": 65.96749816019857
+      },
+      {
+        "quality": 20,
+        "compressed_size": 343937,
+        "ratio_percent": 90.72054273482856
+      },
+      {
+        "quality": 30,
+        "compressed_size": 465783,
+        "ratio_percent": 122.85996143670688
+      },
+      {
+        "quality": 40,
+        "compressed_size": 476172,
+        "ratio_percent": 125.60027643181392
+      },
+      {
+        "quality": 50,
+        "compressed_size": 630761,
+        "ratio_percent": 166.37634292316093
+      },
+      {
+        "quality": 60,
+        "compressed_size": 732323,
+        "ratio_percent": 193.16543441734348
+      },
+      {
+        "quality": 70,
+        "compressed_size": 752970,
+        "ratio_percent": 198.61151043081685
+      },
+      {
+        "quality": 80,
+        "compressed_size": 770116,
+        "ratio_percent": 203.134124821625
+      },
+      {
+        "quality": 90,
+        "compressed_size": 831330,
+        "ratio_percent": 219.28059147967517
+      }
+    ]
+  },
+  "B&W No Dither": {
+    "original_size": 475999,
+    "results": [
+      {
+        "quality": 10,
+        "compressed_size": 314236,
+        "ratio_percent": 66.016105075851
+      },
+      {
+        "quality": 20,
+        "compressed_size": 450487,
+        "ratio_percent": 94.64032487463209
+      },
+      {
+        "quality": 30,
+        "compressed_size": 582017,
+        "ratio_percent": 122.27273586709215
+      },
+      {
+        "quality": 40,
+        "compressed_size": 613085,
+        "ratio_percent": 128.79964033537885
+      },
+      {
+        "quality": 50,
+        "compressed_size": 717183,
+        "ratio_percent": 150.66901401053363
+      },
+      {
+        "quality": 60,
+        "compressed_size": 852911,
+        "ratio_percent": 179.1833596289068
+      },
+      {
+        "quality": 70,
+        "compressed_size": 931682,
+        "ratio_percent": 195.7319238065626
+      },
+      {
+        "quality": 80,
+        "compressed_size": 966346,
+        "ratio_percent": 203.01429204683203
+      },
+      {
+        "quality": 90,
+        "compressed_size": 1084413,
+        "ratio_percent": 227.8183357528062
+      }
+    ]
+  },
+  "B&W With Dither": {
+    "original_size": 659240,
+    "results": [
+      {
+        "quality": 10,
+        "compressed_size": 499663,
+        "ratio_percent": 75.79379285237546
+      },
+      {
+        "quality": 20,
+        "compressed_size": 728847,
+        "ratio_percent": 110.55867362417328
+      },
+      {
+        "quality": 30,
+        "compressed_size": 949876,
+        "ratio_percent": 144.0865238759784
+      },
+      {
+        "quality": 40,
+        "compressed_size": 996848,
+        "ratio_percent": 151.21169831927673
+      },
+      {
+        "quality": 50,
+        "compressed_size": 1117575,
+        "ratio_percent": 169.52475577938233
+      },
+      {
+        "quality": 60,
+        "compressed_size": 1240989,
+        "ratio_percent": 188.2454037983132
+      },
+      {
+        "quality": 70,
+        "compressed_size": 1317567,
+        "ratio_percent": 199.8615071900977
+      },
+      {
+        "quality": 80,
+        "compressed_size": 1371988,
+        "ratio_percent": 208.11661913718828
+      },
+      {
+        "quality": 90,
+        "compressed_size": 1506026,
+        "ratio_percent": 228.44881985316422
+      }
+    ]
+  }
+}
