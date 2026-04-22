@@ -1,12 +1,23 @@
 import numpy as np
 from PIL import Image
 
-
 def split_blocker(arr):
     blocks = []
-    for y in range(0,arr.shape[0],8):
-        for x in range(0,arr.shape[1],8):
+    for y in range(0, arr.shape[0], 8):
+        for x in range(0, arr.shape[1], 8):
             block = arr[y:y+8, x:x+8]
+            if block.shape != (8, 8):
+                padded = np.zeros((8, 8), dtype=arr.dtype)
+                padded[:block.shape[0], :block.shape[1]] = block
+                if block.shape[0] < 8:
+                    for i in range(block.shape[0], 8):
+                        padded[i, :block.shape[1]] = block[block.shape[0]-1, :]
+                        padded[i, block.shape[1]:] = np.mean(padded[i, :block.shape[1]])
+                if block.shape[1] < 8:
+                    for j in range(block.shape[1], 8):
+                        padded[:block.shape[0], j] = padded[:block.shape[0], block.shape[1]-1]
+                        padded[block.shape[0]:, j] = np.mean(padded[:block.shape[0], j])
+                block = padded
             blocks.append(block)
     return blocks
 
@@ -53,7 +64,7 @@ Q = np.array([
 ])
 
 def quntize(coeffs, Q):
-    return np.round(coeffs/Q)
+    return np.round(coeffs/Q).astype(np.int32)
 
 def dequntize(coeffs, Q):
     return coeffs*Q
@@ -68,12 +79,14 @@ def dct_matrix(N):
 def dct_matrix_block(block):
     D = dct_matrix(8)
     block = block.astype(np.float32) - 128
-    return D @ block @ D.T
+    result = D @ block @ D.T
+    return result
 
 def idct_matrix_block(coeffs):
     D = dct_matrix(8)
     result = D.T @ coeffs @ D
-    return result + 128
+    result = result + 128
+    return np.clip(np.round(result), 0, 255). astype(np.uint8)
 
 if __name__ == "__main__":
     lena = Image.open("lena.png")

@@ -1,251 +1,481 @@
 {
   "Lena RGB": {
-    "original_size": 473831,
+    "original_png_size": 473831,
+    "original_raw_size": 786437,
     "results": [
       {
         "quality": 10,
         "compressed_size": 71101,
-        "ratio_percent": 15.005561054468789
+        "compression_ratio_percent_to_png": 15.005561054468789,
+        "compression_ratio_percent_to_raw": 9.04090219559863,
+        "compression_factor_raw": 11.060843026117777,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 20,
         "compressed_size": 83335,
-        "ratio_percent": 17.587494275385104
+        "compression_ratio_percent_to_png": 17.587494275385104,
+        "compression_ratio_percent_to_raw": 10.59652585013167,
+        "compression_factor_raw": 9.437055258894823,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 30,
         "compressed_size": 94553,
-        "ratio_percent": 19.955005054544763
+        "compression_ratio_percent_to_png": 19.955005054544763,
+        "compression_ratio_percent_to_raw": 12.022959245305092,
+        "compression_factor_raw": 8.317419859761191,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 40,
         "compressed_size": 105271,
-        "ratio_percent": 22.216992978509214
+        "compression_ratio_percent_to_png": 22.216992978509214,
+        "compression_ratio_percent_to_raw": 13.385814756935394,
+        "compression_factor_raw": 7.47059494067692,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 50,
         "compressed_size": 116650,
-        "ratio_percent": 24.61848211704173
+        "compression_ratio_percent_to_png": 24.61848211704173,
+        "compression_ratio_percent_to_raw": 14.8327202306097,
+        "compression_factor_raw": 6.741851693099014,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 60,
         "compressed_size": 127287,
-        "ratio_percent": 26.863375338464557
+        "compression_ratio_percent_to_png": 26.863375338464557,
+        "compression_ratio_percent_to_raw": 16.185276125106014,
+        "compression_factor_raw": 6.178454987547825,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 70,
         "compressed_size": 146389,
-        "ratio_percent": 30.894770498342233
+        "compression_ratio_percent_to_png": 30.894770498342233,
+        "compression_ratio_percent_to_raw": 18.61420558798734,
+        "compression_factor_raw": 5.372241083687982,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 80,
         "compressed_size": 182609,
-        "ratio_percent": 38.53884612868301
+        "compression_ratio_percent_to_png": 38.53884612868301,
+        "compression_ratio_percent_to_raw": 23.219787471850893,
+        "compression_factor_raw": 4.306671631737757,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 90,
         "compressed_size": 266620,
-        "ratio_percent": 56.26900730429204
+        "compression_ratio_percent_to_png": 56.26900730429204,
+        "compression_ratio_percent_to_raw": 33.90227062053286,
+        "compression_factor_raw": 2.9496549396144327,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
+      },
+      {
+        "quality": 100,
+        "compressed_size": 923332,
+        "compression_ratio_percent_to_png": 194.86525786620123,
+        "compression_ratio_percent_to_raw": 117.4069887352706,
+        "compression_factor_raw": 0.8517380530513401,
+        "restored_raw_size": 786437,
+        "restored_minus_original_raw": 0
       }
     ]
   },
   "RGB 1024x1024": {
-    "original_size": 2576667,
+    "original_png_size": 2576667,
+    "original_raw_size": 3145733,
     "results": [
       {
         "quality": 10,
         "compressed_size": 426493,
-        "ratio_percent": 16.552119462856474
+        "compression_ratio_percent_to_png": 16.552119462856474,
+        "compression_ratio_percent_to_raw": 13.557825791317955,
+        "compression_factor_raw": 7.375813905503724,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 20,
         "compressed_size": 560421,
-        "ratio_percent": 21.749841946980343
+        "compression_ratio_percent_to_png": 21.749841946980343,
+        "compression_ratio_percent_to_raw": 17.81527548587245,
+        "compression_factor_raw": 5.613160463294559,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 30,
         "compressed_size": 650096,
-        "ratio_percent": 25.230113165573975
+        "compression_ratio_percent_to_png": 25.230113165573975,
+        "compression_ratio_percent_to_raw": 20.665962432285255,
+        "compression_factor_raw": 4.838874566217912,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 40,
         "compressed_size": 751590,
-        "ratio_percent": 29.16907772715683
+        "compression_ratio_percent_to_png": 29.16907772715683,
+        "compression_ratio_percent_to_raw": 23.89236467303487,
+        "compression_factor_raw": 4.185437539083809,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 50,
         "compressed_size": 783744,
-        "ratio_percent": 30.4169688981929
+        "compression_ratio_percent_to_png": 30.4169688981929,
+        "compression_ratio_percent_to_raw": 24.91451118070097,
+        "compression_factor_raw": 4.013725144945289,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 60,
         "compressed_size": 882374,
-        "ratio_percent": 34.24478211581085
+        "compression_ratio_percent_to_png": 34.24478211581085,
+        "compression_ratio_percent_to_raw": 28.049869458088146,
+        "compression_factor_raw": 3.565078980115008,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 70,
         "compressed_size": 1069644,
-        "ratio_percent": 41.512698381280934
+        "compression_ratio_percent_to_png": 41.512698381280934,
+        "compression_ratio_percent_to_raw": 34.003012970267974,
+        "compression_factor_raw": 2.9409158561166144,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 80,
         "compressed_size": 1147768,
-        "ratio_percent": 44.544677290468655
+        "compression_ratio_percent_to_png": 44.544677290468655,
+        "compression_ratio_percent_to_raw": 36.486504099362534,
+        "compression_factor_raw": 2.7407394177220485,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 90,
         "compressed_size": 1323514,
-        "ratio_percent": 51.36534911185652
+        "compression_ratio_percent_to_png": 51.36534911185652,
+        "compression_ratio_percent_to_raw": 42.07331009974464,
+        "compression_factor_raw": 2.376803721003329,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
+      },
+      {
+        "quality": 100,
+        "compressed_size": 2934750,
+        "compression_ratio_percent_to_png": 113.89713921123685,
+        "compression_ratio_percent_to_raw": 93.2930417171451,
+        "compression_factor_raw": 1.0718913024959538,
+        "restored_raw_size": 3145733,
+        "restored_minus_original_raw": 0
       }
     ]
   },
   "Grayscale": {
-    "original_size": 379117,
+    "original_png_size": 884438,
+    "original_raw_size": 1048581,
     "results": [
       {
         "quality": 10,
-        "compressed_size": 250094,
-        "ratio_percent": 65.96749816019857
+        "compressed_size": 246633,
+        "compression_ratio_percent_to_png": 27.88584389182735,
+        "compression_ratio_percent_to_raw": 23.52064361265367,
+        "compression_factor_raw": 4.2515843378623295,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 20,
-        "compressed_size": 343937,
-        "ratio_percent": 90.72054273482856
+        "compressed_size": 344821,
+        "compression_ratio_percent_to_png": 38.98758307535407,
+        "compression_ratio_percent_to_raw": 32.88453634006338,
+        "compression_factor_raw": 3.0409429820109564,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 30,
-        "compressed_size": 465783,
-        "ratio_percent": 122.85996143670688
+        "compressed_size": 406197,
+        "compression_ratio_percent_to_png": 45.92713112733736,
+        "compression_ratio_percent_to_raw": 38.73777991399806,
+        "compression_factor_raw": 2.5814592426827376,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 40,
-        "compressed_size": 476172,
-        "ratio_percent": 125.60027643181392
+        "compressed_size": 486783,
+        "compression_ratio_percent_to_png": 55.038679930079894,
+        "compression_ratio_percent_to_raw": 46.42302311409419,
+        "compression_factor_raw": 2.1541035738717254,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 50,
-        "compressed_size": 630761,
-        "ratio_percent": 166.37634292316093
+        "compressed_size": 498542,
+        "compression_ratio_percent_to_png": 56.36822479359774,
+        "compression_ratio_percent_to_raw": 47.5444433954077,
+        "compression_factor_raw": 2.1032952088289454,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 60,
-        "compressed_size": 732323,
-        "ratio_percent": 193.16543441734348
+        "compressed_size": 576380,
+        "compression_ratio_percent_to_png": 65.16906781481573,
+        "compression_ratio_percent_to_raw": 54.96761814299516,
+        "compression_factor_raw": 1.819252923418578,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 70,
-        "compressed_size": 752970,
-        "ratio_percent": 198.61151043081685
+        "compressed_size": 743426,
+        "compression_ratio_percent_to_png": 84.05631598823207,
+        "compression_ratio_percent_to_raw": 70.89829016547125,
+        "compression_factor_raw": 1.410471250669199,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 80,
-        "compressed_size": 770116,
-        "ratio_percent": 203.134124821625
+        "compressed_size": 771232,
+        "compression_ratio_percent_to_png": 87.2002333685346,
+        "compression_ratio_percent_to_raw": 73.55006432502591,
+        "compression_factor_raw": 1.3596181175054978,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 90,
-        "compressed_size": 831330,
-        "ratio_percent": 219.28059147967517
+        "compressed_size": 833013,
+        "compression_ratio_percent_to_png": 94.18557321146311,
+        "compression_ratio_percent_to_raw": 79.44193152460325,
+        "compression_factor_raw": 1.2587810754454012,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
+      },
+      {
+        "quality": 100,
+        "compressed_size": 1229274,
+        "compression_ratio_percent_to_png": 138.9892790676113,
+        "compression_ratio_percent_to_raw": 117.2321451561682,
+        "compression_factor_raw": 0.8530083610326095,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       }
     ]
   },
   "B&W No Dither": {
-    "original_size": 475999,
+    "original_png_size": 64051,
+    "original_raw_size": 1048581,
     "results": [
       {
         "quality": 10,
-        "compressed_size": 314236,
-        "ratio_percent": 66.016105075851
+        "compressed_size": 321216,
+        "compression_ratio_percent_to_png": 501.5003668951304,
+        "compression_ratio_percent_to_raw": 30.633398850446458,
+        "compression_factor_raw": 3.264410863717872,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 20,
-        "compressed_size": 450487,
-        "ratio_percent": 94.64032487463209
+        "compressed_size": 455131,
+        "compression_ratio_percent_to_png": 710.5759472920017,
+        "compression_ratio_percent_to_raw": 43.40446756139965,
+        "compression_factor_raw": 2.303910302748,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 30,
-        "compressed_size": 582017,
-        "ratio_percent": 122.27273586709215
+        "compressed_size": 566151,
+        "compression_ratio_percent_to_png": 883.9065744484863,
+        "compression_ratio_percent_to_raw": 53.99210933633167,
+        "compression_factor_raw": 1.8521224902896931,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 40,
-        "compressed_size": 613085,
-        "ratio_percent": 128.79964033537885
+        "compressed_size": 654468,
+        "compression_ratio_percent_to_png": 1021.7920094924358,
+        "compression_ratio_percent_to_raw": 62.41463463480647,
+        "compression_factor_raw": 1.6021883422871706,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 50,
-        "compressed_size": 717183,
-        "ratio_percent": 150.66901401053363
+        "compressed_size": 728656,
+        "compression_ratio_percent_to_png": 1137.6184602894568,
+        "compression_ratio_percent_to_raw": 69.48971991672556,
+        "compression_factor_raw": 1.4390617794953997,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 60,
-        "compressed_size": 852911,
-        "ratio_percent": 179.1833596289068
+        "compressed_size": 810397,
+        "compression_ratio_percent_to_png": 1265.237076704501,
+        "compression_ratio_percent_to_raw": 77.28511197513592,
+        "compression_factor_raw": 1.2939102686707873,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 70,
-        "compressed_size": 931682,
-        "ratio_percent": 195.7319238065626
+        "compressed_size": 898299,
+        "compression_ratio_percent_to_png": 1402.474590560647,
+        "compression_ratio_percent_to_raw": 85.66805997819911,
+        "compression_factor_raw": 1.1672961897987195,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 80,
-        "compressed_size": 966346,
-        "ratio_percent": 203.01429204683203
+        "compressed_size": 1006191,
+        "compression_ratio_percent_to_png": 1570.921609342555,
+        "compression_ratio_percent_to_raw": 95.9573938494022,
+        "compression_factor_raw": 1.0421291782574085,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 90,
-        "compressed_size": 1084413,
-        "ratio_percent": 227.8183357528062
+        "compressed_size": 1164238,
+        "compression_ratio_percent_to_png": 1817.6734164962295,
+        "compression_ratio_percent_to_raw": 111.0298584467962,
+        "compression_factor_raw": 0.9006586282186289,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
+      },
+      {
+        "quality": 100,
+        "compressed_size": 1530287,
+        "compression_ratio_percent_to_png": 2389.1695680004996,
+        "compression_ratio_percent_to_raw": 145.93884497239603,
+        "compression_factor_raw": 0.6852185243683048,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       }
     ]
   },
   "B&W With Dither": {
-    "original_size": 659240,
+    "original_png_size": 112889,
+    "original_raw_size": 1048581,
     "results": [
       {
         "quality": 10,
-        "compressed_size": 499663,
-        "ratio_percent": 75.79379285237546
+        "compressed_size": 515920,
+        "compression_ratio_percent_to_png": 457.01529821328916,
+        "compression_ratio_percent_to_raw": 49.201730719896695,
+        "compression_factor_raw": 2.032448829275857,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 20,
-        "compressed_size": 728847,
-        "ratio_percent": 110.55867362417328
+        "compressed_size": 738911,
+        "compression_ratio_percent_to_png": 654.5465014306088,
+        "compression_ratio_percent_to_raw": 70.46770826478831,
+        "compression_factor_raw": 1.419089714458169,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 30,
-        "compressed_size": 949876,
-        "ratio_percent": 144.0865238759784
+        "compressed_size": 926316,
+        "compression_ratio_percent_to_png": 820.5547041784408,
+        "compression_ratio_percent_to_raw": 88.33995656987872,
+        "compression_factor_raw": 1.1319905950021374,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 40,
-        "compressed_size": 996848,
-        "ratio_percent": 151.21169831927673
+        "compressed_size": 1047774,
+        "compression_ratio_percent_to_png": 928.1453463136355,
+        "compression_ratio_percent_to_raw": 99.92303884964538,
+        "compression_factor_raw": 1.000770204261606,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 50,
-        "compressed_size": 1117575,
-        "ratio_percent": 169.52475577938233
+        "compressed_size": 1133086,
+        "compression_ratio_percent_to_png": 1003.7169254754671,
+        "compression_ratio_percent_to_raw": 108.05898638254936,
+        "compression_factor_raw": 0.9254204888243258,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 60,
-        "compressed_size": 1240989,
-        "ratio_percent": 188.2454037983132
+        "compressed_size": 1211881,
+        "compression_ratio_percent_to_png": 1073.5155772484475,
+        "compression_ratio_percent_to_raw": 115.57342732702575,
+        "compression_factor_raw": 0.8652507960765125,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 70,
-        "compressed_size": 1317567,
-        "ratio_percent": 199.8615071900977
+        "compressed_size": 1295698,
+        "compression_ratio_percent_to_png": 1147.7628466901115,
+        "compression_ratio_percent_to_raw": 123.56680122947105,
+        "compression_factor_raw": 0.8092788597342899,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 80,
-        "compressed_size": 1371988,
-        "ratio_percent": 208.11661913718828
+        "compressed_size": 1400652,
+        "compression_ratio_percent_to_png": 1240.7338181753757,
+        "compression_ratio_percent_to_raw": 133.57594692255535,
+        "compression_factor_raw": 0.7486377772637315,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       },
       {
         "quality": 90,
-        "compressed_size": 1506026,
-        "ratio_percent": 228.44881985316422
+        "compressed_size": 1555091,
+        "compression_ratio_percent_to_png": 1377.5398843111375,
+        "compression_ratio_percent_to_raw": 148.3043274673106,
+        "compression_factor_raw": 0.6742891573547786,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
+      },
+      {
+        "quality": 100,
+        "compressed_size": 1997636,
+        "compression_ratio_percent_to_png": 1769.5577071282412,
+        "compression_ratio_percent_to_raw": 190.5085062575042,
+        "compression_factor_raw": 0.5249109447366788,
+        "restored_raw_size": 1048581,
+        "restored_minus_original_raw": 0
       }
     ]
   }
